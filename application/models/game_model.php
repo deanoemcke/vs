@@ -1,8 +1,8 @@
 <?php
 class Game_model extends CI_Model {
 
-	private $game_fields = ['date', 'competition_id', 'winner_id'];
-	private $score_fields = ['game_id', 'competitor_id', 'detail_id', 'score'];
+	private $game_fields = array('date', 'competition_id', 'winner_id');
+	private $score_fields = array('game_id', 'competitor_id', 'detail_id', 'score');
 
 	public function __construct()
 	{

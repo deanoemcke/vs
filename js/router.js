@@ -32,7 +32,7 @@ $(function () {
                         data: { competition_id: id},
                         success: function(collection, response)  {
                             console.log(collection);
-                            Vs.competitionView = new Vs.CompetitionView({model: model, collection: response});
+                            Vs.competitionView = new Vs.CompetitionView({model: competition, collection: games});
                             Vs.competitionView.render();
                         },
                         error: function(collection, response) {

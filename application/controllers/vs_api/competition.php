@@ -31,7 +31,6 @@ class Competition extends CI_Controller {
 
 
     public function get_competition() {
-
         $params = $_GET;
 
         try {
