@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['vs']['hostname'] = 'localhost';
 $db['vs']['username'] = 'root';
-$db['vs']['password'] = '';
+$db['vs']['password'] = 'hard24get';
 $db['vs']['database'] = 'vs';
 $db['vs']['dbdriver'] = 'mysql';
 $db['vs']['dbprefix'] = '';
